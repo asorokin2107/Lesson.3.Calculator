@@ -50,9 +50,13 @@ public class Main {
                 System.out.println("Частное " + firstNumber + " / " + secondNumber + " = "
                         + (firstNumber / secondNumber));
             }
-            if (choice == 4) {
+            else if (choice == 4) {
                 System.out.println("Произведение " + firstNumber + " * " + secondNumber + " = "
                         + (firstNumber * secondNumber));
+                System.out.println("Программа завершена!");
+                System.out.println("Перезапустите программу, чтобы продолжить!");
+                break;
+
             } else {
                 System.out.println("Программа завершена!");
                 System.out.println("Перезапустите программу, чтобы продолжить!");
