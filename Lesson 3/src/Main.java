@@ -19,6 +19,11 @@ public class Main {
                 System.out.println("3.Деление");
                 System.out.println("4.Умножение");
                 int choice = scanner.nextInt();
+                if (choice < 1) {
+                System.out.println("Error! Выберите верный пункт!");
+                System.out.println("Перезапустите программу, чтобы продолжить!");
+                break;
+                }
                 if (choice > 4) {
                     System.out.println("Error! Выберите верный пункт!");
                     System.out.println("Перезапустите программу, чтобы продолжить!");
